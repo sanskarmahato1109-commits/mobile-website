@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mobile-Made Site</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Mobile-Created Website</h1>
+        
+        <div class="todo-app">
+            <h2>Todo List (Full Stack)</h2>
+            <input type="text" id="taskInput" placeholder="Add new task...">
+            <button onclick="addTask()">Add</button>
+            
+            <ul id="taskList"></ul>
+            
+            <div id="message"></div>
+        </div>
+        
+        <div class="api-test">
+            <h3>Test Backend API</h3>
+            <button onclick="testBackend()">Check Server Status</button>
+            <p id="apiResult"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
